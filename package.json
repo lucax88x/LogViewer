@@ -1,0 +1,22 @@
+{
+  "name": "logviewer",
+  "version": "1.0.0",
+  "description": "This simple extractor merely extracts client-ip & Number of calls for the client-ip and shows it on a simple web-page",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd src/LogViewer.Web.Files && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucax88x/LogViewer.git"
+  },
+  "keywords": [
+    "logviewer"
+  ],
+  "author": "LucaTrazzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucax88x/LogViewer/issues"
+  },
+  "homepage": "https://github.com/lucax88x/LogViewer#readme"
+}
