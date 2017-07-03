@@ -2,6 +2,8 @@ import './App.css';
 import { logRow } from './models/logRow';
 import * as React from 'react';
 import 'whatwg-fetch';
+import * as NProgress from 'nprogress';
+import 'nprogress/nprogress.css';
 
 interface AppState {
   logRows: logRow[];
@@ -51,8 +53,12 @@ class App extends React.Component<{}, AppState> {
   }
 
   componentDidMount() {
+    NProgress.start();
     fetch('http://localhost:53678/api/log')
-      .then(response => response.json())
+      .then(response => {
+        NProgress.done();
+        return response.json();
+      })
       .then((data: logRow[]) => {
         this.setState({
           logRows: data

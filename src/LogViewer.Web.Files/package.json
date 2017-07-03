@@ -1,23 +1,26 @@
 {
-  "name": "app",
+  "name": "logviewer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@types/jest": "^20.0.2",
     "@types/node": "^8.0.6",
+    "@types/nprogress": "0.0.29",
     "@types/react": "^15.0.33",
     "@types/react-dom": "^15.5.1",
     "fetch": "^1.1.0",
     "lodash": "^4.17.4",
+    "nprogress": "^0.2.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
+    "cpx": "^1.5.0",
     "react-scripts-ts": "2.3.2"
   },
   "scripts": {
     "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
+    "build": "react-scripts-ts build && cpx \"build/**/*\" wwwroot",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   }

@@ -40,7 +40,7 @@ namespace LogViewer.Web.Api
 
             app.UseCors(builder =>
                 builder
-                    .WithOrigins("http://localhost:3000")
+                    .WithOrigins("http://localhost:3000", "http://localhost:53855")
                     .AllowAnyHeader()
                     .AllowAnyMethod()
             );

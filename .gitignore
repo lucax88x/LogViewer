@@ -26,6 +26,7 @@ src/LogViewer.Web.Files/coverage
 
 # production
 src/LogViewer.Web.Files/build
+src/LogViewer.Web.Files/wwwroot
 
 # misc
 .DS_Store
