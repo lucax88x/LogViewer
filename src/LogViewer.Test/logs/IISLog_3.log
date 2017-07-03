@@ -1,0 +1,7 @@
+2016-02-15 23:44:42 10.10.2.18 GET / - 443 - 198.20.69.74 - - 200 0 995 29761
+2016-02-15 23:44:42 10.10.2.18 GET / - 443 - 198.20.69.74 - - 200 0 995 33353
+2016-02-15 23:44:44 10.10.2.18 GET / - 443 - 198.20.69.74 - - 200 0 995 38788
+2016-02-15 09:58:20 10.10.2.18 GET / - 443 - 83.150.38.202 Mozilla/5.0+(Windows+NT+6.3;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.109+Safari/537.36 - 200 0 0 546
+2016-02-15 09:58:20 10.10.2.18 GET /Scripts/jquery.validate.unobtrusive.min.js - 443 - 83.150.38.202 Mozilla/5.0+(Windows+NT+6.3;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.109+Safari/537.36 https://10.10.10.10/ 200 0 0 15
+2016-02-15 09:58:20 10.10.2.18 GET /Scripts/jquery.validate.min.js - 443 - 83.150.38.202 Mozilla/5.0+(Windows+NT+6.3;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.109+Safari/537.36 https://10.10.10.10/ 200 0 0 30
+2016-02-15 09:58:20 10.10.2.18 GET /Scripts/public.common.js - 443 - 83.150.38.202 Mozilla/5.0+(Windows+NT+6.3;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.109+Safari/537.36 https://10.10.10.10/ 200 0 0 8

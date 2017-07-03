@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+  font-weight: bold;
+}
+.container{
+  width: 80vw;
+  margin: auto;
+}
+.col-4{
+  width: 33.3%;
+  float: left;
+}
+.col-6{
+  width: 50%;
+  float: left;
+}
+.clearfix{
+  clear: both;
+}
+
+.table .table-header{
+  border-bottom: 1px solid #333;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
